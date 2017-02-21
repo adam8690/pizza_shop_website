@@ -1,10 +1,10 @@
 <% @pizzas.each do |pizza|  %>
   <p>Name: <%= pizza.pretty_name %></p>
   <p>Order: <%= pizza.quantity %> x <%= pizza.topping %></p>
-  <p><a href="/pizzas/<%= pizza.id %>">Show Order</a></p>
+  <p><a href="/pizzas/<%= pizza.id %>" class="btn btn-default">Show Order</a></p>
   <p><form method="post" action="/pizzas/<%= pizza.id %>/delete">
-  <input type="submit" value="Delete order"/></form></p>
-  <p><a href="/pizzas/<%= pizza.id %>/edit">Update order</a>
+  <input type="submit" value="Delete order" class="btn btn-default"/></form></p>
+  <p><a href="/pizzas/<%= pizza.id %>/edit" class="btn btn-default">Update order</a>
 
   <hr />
 

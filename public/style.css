@@ -1,0 +1,47 @@
+p {
+  color: black;
+  font-family: Helvetica;
+  background-color: yellow;
+  width: 500px;
+}
+
+nav {
+color: black;
+font-family: Helvetica;
+font: 14px;
+background-color: red;
+width: 500px;
+
+}
+
+body { 
+background-image: url("https://d13yacurqjgara.cloudfront.net/users/60266/screenshots/1958686/pizza_pattern_dribbble.jpg");
+
+ }
+
+form {
+  border: 5px solid yellow;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 500px;
+  background-color: green;
+}
+
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+}
+
+.btn-default {
+  border: 1;
+  background: yellow;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
