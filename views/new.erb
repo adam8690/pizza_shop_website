@@ -1,0 +1,19 @@
+<form method="post" action="/pizzas">
+<label for="first-name">First Name:</label>
+<input type="text" name="first_name" id="first-name"/> <!--the name of the inputs must match the strings inside the options hash to match the database. This method of labelling tags is good for accessibility so that screen readers can read the names and also ensures that clicking the label of the text box will allow typing in the correct textbox. id must match for.-->
+
+<label for="last-name">Last Name:</label>
+<input type="text" name="last_name" id="last-name" />
+
+<label for="pizza-select">Pizza:</label>
+<select id="pizza-select" name="topping">
+<option value="Margherita">Margherita</option> <!--value must match what is being added to database. -->
+<option value="Calzone">Calzone</option>
+</select>
+
+<label for="Quantity">Quantity:</label>
+<input type="number" name="quantity" id="quantity" />
+
+<input type="submit" value="Order Pizza"/>
+
+</form>
